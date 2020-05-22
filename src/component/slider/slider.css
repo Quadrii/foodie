@@ -1,0 +1,29 @@
+.img_1 {
+    background-image: url(./asset/firstslide.jpg);
+    height: 400px;
+    background-position: 50% 50%;
+    background-size: cover;
+    max-width: 100%;
+}
+
+.img-opacity {
+    background-color: #000;
+    opacity: 0.8;
+    height: 400px;
+}
+
+.img_2 {
+    background-image: url(./asset/secondslide.jpg);
+    height: 400px;
+    background-position: 50% 50%;
+    background-size: cover;
+    max-width: 100%;
+}
+
+.img_3 {
+    background-image: url(./asset/thirdslide.jpg);
+    height: 400px;
+    background-position: 50% 50%;
+    background-size: cover;
+    max-width: 100%;
+}
