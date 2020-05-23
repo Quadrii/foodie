@@ -1,0 +1,24 @@
+.booking {
+    background-color: #F85A40;
+    padding: 50px 0;
+}
+
+.booking-content {
+    color: #fff;
+}
+
+.booking-content h2 {
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.booking-content span {
+    display: block;
+    text-align: center;
+}
+
+.booking-content b {
+    display: block;
+    text-align: center;
+    letter-spacing: 1px;
+}

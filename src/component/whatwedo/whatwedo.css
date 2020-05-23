@@ -1,0 +1,30 @@
+.whatwedo {
+    background-color: #eee;
+    padding: 50px 0;
+    margin-top: 20px;
+}
+
+.whatwedo h2 {
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+.card {
+    width: 100%;
+    box-shadow: 0px 3px 9px rgba(113, 117, 123, 0.4);
+}
+
+.card-body h2 {
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.card-body p {
+    text-align: left;
+    line-height: 30px;
+}
+
+.mb-row {
+    margin-bottom: 20px;
+}
