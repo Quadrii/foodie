@@ -70,28 +70,23 @@ function Header() {
         <
         li className = "nav-item pl-4 pl-md-0 ml-0 ml-md-4 active" >
         <
-        a className = "nav-link"
-        href = "index.html" > Home < /a> < /
+        a className = "nav-link"> Home < /a> < /
         li > <
         li className = "nav-item pl-4 pl-md-0 ml-0 ml-md-4" >
         <
-        a className = "nav-link"
-        href = "" > About Us < /a> < /
+        a className = "nav-link"> About Us < /a> < /
         li > <
         li className = "nav-item pl-4 pl-md-0 ml-0 ml-md-4" >
         <
-        a className = "nav-link"
-        href = "" > Services < /a> < /
+        a className = "nav-link"> Services < /a> < /
         li > <
         li class = "nav-item pl-4 pl-md-0 ml-0 ml-md-4" >
         <
-        a class = "nav-link"
-        href = "" > Gallery < /a> < /
+        a class = "nav-link"> Gallery < /a> < /
         li > <
         li class = "nav-item pl-4 pl-md-0 ml-0 ml-md-4" >
         <
-        a class = "nav-link"
-        href = "" > Contact us < /a> < /
+        a class = "nav-link"> Contact us < /a> < /
         li > <
         /ul> < /
         div > <
