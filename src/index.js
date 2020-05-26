@@ -1,20 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import $ from 'jquery';
-import popper from 'popper.js'
+import popper from 'popper.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import './index.css';
-import './navigation.js';
 import App from './App';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render( <
-    React.StrictMode >
+    Router >
     <
     App / >
     <
-    /React.StrictMode>,
+    /Router>,
     document.getElementById('root')
 );
 

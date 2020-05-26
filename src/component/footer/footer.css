@@ -1,0 +1,39 @@
+.footer {
+    background-color: #191919;
+    padding: 50px 0;
+}
+
+.crispy_content .title {
+    display: block;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.cont {
+    color: #808b96;
+}
+
+.crispy_content p {
+    text-align: left;
+}
+
+span {
+    color: #808b96;
+}
+
+.content_2 {
+    line-height: 30px;
+}
+
+.copyright {
+    text-align: center;
+    color: #808b96;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #fff;
+}
