@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import About from './About';
+import Services from './Services';
 import Header from './component/nav/Header';
 import Slider from './component/slider/Slider';
 import Crispy from './component/crispy/Crispy';
@@ -15,6 +16,7 @@ function App() {
             <Switch>
                 <Route path="/" exact component={Home}/>
                 <Route path="/about" component={About}/>
+                <Route path="/services" component={Services}/>
             </Switch>
         </Router>  
     );

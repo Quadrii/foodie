@@ -1,0 +1,13 @@
+.service-banner {
+    background-image: url(./asset/service-banner.jpg);
+    height: 300px;
+    background-position: 50% 50%;
+    background-size: cover;
+    max-width: 100%;
+}
+
+.overlay {
+    background-color: #000;
+    opacity: 0.6;
+    height: 300px;
+}
