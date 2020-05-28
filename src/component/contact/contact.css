@@ -1,0 +1,67 @@
+.contact-banner {
+    background-image: url(./asset/contact-banner.jpg);
+    height: 300px;
+    background-position: 50% 50%;
+    background-size: cover;
+    max-width: 100%;
+}
+
+.overlay {
+    background-color: #000;
+    opacity: 0.6;
+    height: 300px;
+}
+
+.form-holder {
+    padding: 50px 0;
+}
+
+.contact-h2 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.icon {
+    color: #F85A40;
+}
+
+.header {
+    font-size: 20px;
+}
+
+.infos {
+    color: #000;
+}
+
+li {
+    display: block;
+    margin-left: 10px;
+}
+
+a.button1 {
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #333333;
+    margin: 2em 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 300;
+    background-color: #F85A40;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+a.button1:hover {
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+@media all and (max-width:30em) {
+    a.button1 {
+        display: block;
+        margin: 0.4em auto;
+    }
+}

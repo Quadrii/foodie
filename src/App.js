@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import About from './About';
 import Services from './Services';
+import Contact from './Contact';
 import Header from './component/nav/Header';
 import Slider from './component/slider/Slider';
 import Crispy from './component/crispy/Crispy';
@@ -17,6 +18,7 @@ function App() {
                 <Route path="/" exact component={Home}/>
                 <Route path="/about" component={About}/>
                 <Route path="/services" component={Services}/>
+                <Route path="/contact" component={Contact}/>
             </Switch>
         </Router>  
     );

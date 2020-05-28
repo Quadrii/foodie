@@ -1,6 +1,6 @@
 import React from 'react';
 import './Stylesheader.css';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function Header() {
     return ( <
@@ -17,7 +17,7 @@ function Header() {
                         </li >  
                     </ul>   
                 </div >   
-                <div className = "float-right contact_info" >
+                <div className = "float-right contact_infos" >
                     <p > Mon - Sun: 8: 30 am To 9: 30 pm < /p>  
                 </div>    
             </div >   
@@ -28,36 +28,35 @@ function Header() {
                 <div className = "row" >
                     <div className = "col-12" >
                         <nav className = "navbar navbar-expand-md navbar-light" >
-                            <a className = "navbar-brand" href = "index.html" >
-                                <img src = "images/Venture-Veteran-logo.png" alt = "CRIPSY" / >
-                            </a> 
+                                <a className = "navbar-brand" href = "" >
+                                    <img src = "images/Venture-Veteran-logo.png" alt = "CRIPSY" / >
+                                </a>
                             <button className = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = "#navbarSupportedContent" aria-controls = "navbarSupportedContent" aria-expanded = "false" aria-label = "Toggle navigation" >
                                 <span className = "navbar-toggler-icon" > < /span> 
                             </button> 
                             <div className = "collapse navbar-collapse" id = "navbarSupportedContent" >
                                 <ul className = "navbar-nav ml-auto py-4 py-md-0" >
-                                    < Link to = "/" >
-                                        <li className = "nav-item pl-4 pl-md-0 ml-0 ml-md-4 active" >
+                                    < NavLink to = "/" exact activeClassName="active">
+                                        <li className = "nav-item pl-4 pl-md-0 ml-0 ml-md-4" >
                                             <a className = "nav-link" href = "" > Home < /a> 
                                         </li> 
-                                    </Link> 
-                                <Link to = "/about" >
-                                    <li className = "nav-item pl-4 pl-md-0 ml-0 ml-md-4" >
-                                        <a className = "nav-link" href = "" > About Us < /a> 
-                                    </li> 
-                                </Link> 
-                                <Link to = "/services" >
-                                    <li className = "nav-item pl-4 pl-md-0 ml-0 ml-md-4" >
-                                        <a className = "nav-link" href = "" > Services < /a> 
-                                    </li> 
-                                </Link>
-                                <li className = "nav-item pl-4 pl-md-0 ml-0 ml-md-4" >
-                                    <a className = "nav-link" href = "" > Gallery < /a> 
-                                </li> 
-                                <li className = "nav-item pl-4 pl-md-0 ml-0 ml-md-4" >
-                                    <a className = "nav-link" href = "" > Contact us < /a> 
-                                </li> 
-                            </ul> 
+                                    </NavLink> 
+                                    <NavLink to = "/about" activeClassName="active">
+                                        <li className = "nav-item pl-4 pl-md-0 ml-0 ml-md-4" >
+                                            <a className = "nav-link" href = "" > About Us < /a> 
+                                        </li> 
+                                    </NavLink> 
+                                    <NavLink to = "/services" activeClassName="active">
+                                        <li className = "nav-item pl-4 pl-md-0 ml-0 ml-md-4" >
+                                            <a className = "nav-link" href = "" > Services < /a> 
+                                        </li> 
+                                    </NavLink>
+                                    <NavLink to="/contact" activeClassName="active">
+                                        <li className = "nav-item pl-4 pl-md-0 ml-0 ml-md-4" >
+                                            <a className = "nav-link" href = "" > Contact us < /a> 
+                                        </li> 
+                                    </NavLink>
+                                </ul> 
                         </div>
                     </nav>
                 </div> 
