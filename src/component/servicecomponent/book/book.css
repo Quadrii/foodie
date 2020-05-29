@@ -1,42 +1,24 @@
-.contact-banner {
-    background-image: url(./asset/contact-banner.jpg);
+.book_img {
+    background-image: url(./asset/booking.jpg);
     height: 300px;
     background-position: 50% 50%;
     background-size: cover;
     max-width: 100%;
 }
 
-.overlay {
-    background-color: #000;
-    opacity: 0.6;
-    height: 300px;
-}
-
-.form-holder {
+.book {
     padding: 50px 0;
 }
 
-.contact-h2 {
+.content-holder h2 {
     text-align: center;
-    text-transform: uppercase;
     letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
-.icon {
-    color: #F85A40;
-}
-
-.header {
-    font-size: 20px;
-}
-
-.infos {
-    color: #000;
-}
-
-li {
-    display: block;
-    margin-left: 10px;
+.content-holder p {
+    text-align: justify;
+    line-height: 30px;
 }
 
 a.button1 {
