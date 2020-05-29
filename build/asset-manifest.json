@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.098f0fea.chunk.css",
+    "main.js": "/static/js/main.48af7b2d.chunk.js",
+    "main.js.map": "/static/js/main.48af7b2d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5c9434c7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5c9434c7.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.30816d98.chunk.js": "/static/js/2.30816d98.chunk.js",
+    "static/js/2.30816d98.chunk.js.map": "/static/js/2.30816d98.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b0fa5faf399a1623f25e2b147ca771a5.js": "/precache-manifest.b0fa5faf399a1623f25e2b147ca771a5.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.098f0fea.chunk.css.map": "/static/css/main.098f0fea.chunk.css.map",
+    "static/js/2.30816d98.chunk.js.LICENSE.txt": "/static/js/2.30816d98.chunk.js.LICENSE.txt",
+    "static/media/Chef.png": "/static/media/Chef.95726e8d.png",
+    "static/media/banner.css": "/static/media/service-banner.bfc7dd79.jpg",
+    "static/media/book.css": "/static/media/booking.45284815.jpg",
+    "static/media/chef.css": "/static/media/chefe.1ba52112.png",
+    "static/media/contact.css": "/static/media/contact-banner.a8c4cc2a.jpg",
+    "static/media/slider.css": "/static/media/thirdslide.0b62c53d.jpg",
+    "static/media/manna.css": "/static/media/manna.1506cd4e.jpg",
+    "static/media/crispy.css": "/static/media/side-img.e3ba5288.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5c9434c7.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.30816d98.chunk.js",
+    "static/css/main.098f0fea.chunk.css",
+    "static/js/main.48af7b2d.chunk.js"
+  ]
+}
